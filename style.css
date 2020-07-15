@@ -1,0 +1,54 @@
+
+header {
+    margin:20px auto;
+    background-color: yellow;
+    max-width: 500px;
+    text-align: center;
+}
+
+
+#conainer{
+    margin: auto;
+    background-color: #ddb5b5;
+    max-width: 500px;
+    text-align: center;
+}
+
+#tabone {
+    width: 300px;
+    margin: 15px auto;
+    background-color:  yellow;
+    
+}
+
+#tabone, tr, td, th {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.one {
+    background-color:  yellow; 
+}
+
+input {
+    height: 30px;
+    width: 100px;
+}
+
+select {
+    margin: 5px;
+}
+#b {
+    
+}
+
+#tablo {
+    display: flex;
+    background-color: chartreuse;
+    min-width: 300px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #container { max-width: 80%}
+}
