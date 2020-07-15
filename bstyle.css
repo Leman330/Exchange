@@ -1,0 +1,61 @@
+body {
+   background-color: rgb(192, 234, 240);
+ }
+
+
+
+#hone {
+    font:Tahoma;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+#kon {
+    margin: 30px auto;
+    font: 15px Tahoma;
+    border: 2px solid rgb(28, 177, 197);
+    border-radius: 10px;
+    background-color:rgb(245, 254, 255);
+}
+#zaq {
+    font-weight: bold;
+}
+input {
+    height: 30px;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 3px;
+    text-align: center;
+}
+
+select {
+    border: 1px solid #111;
+    
+}
+
+
+
+#b {
+    color: rgb(52, 120, 245);
+    margin: 5px;
+    font: 20px Tahoma; 
+}
+
+#jjss {
+    margin-top: 20px;
+    font: 17px Tahoma;  
+    padding: 0 !important;
+    
+}
+.flag{
+    height:30px;
+    width:40px;
+}
+.somele {
+    width: 130px;
+    padding: 0 !important;
+    vertical-align: middle !important;
+}
+
+@media only screen and (max-width: 768px) {
+    option {font: 10px;}
+}
