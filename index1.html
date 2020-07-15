@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>valuta</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+        <link rel="stylesheet" href="bstyle.css" />
+    </head>
+    <body>
+        <header>
+            
+        </header>
+        <main  >
+            
+            <div id = "kon" class="container-fluid text-center col-md-4"> 
+                <h1 id="hone" class="h3"> Online exchange rates</h1>
+                <div class="">
+                    <table class="table table-bordered">
+                        <tr id="zaq">
+                            <th>Currency</th>
+                            <th>CBAR</th>
+                            <th>We buy</th>
+                            <th>We sell</th>
+    
+                        </tr>
+                        <tr>
+                            <td>USD</td>
+                            <td>1.7000</td>
+                            <td>1.6970</td>
+                            <td>1.7020</td>
+                        </tr>
+                        <tr>
+                            <td>EUR</td>
+                            <td>1.9267</td>
+                            <td>1.8585</td>
+                            <td>1.9830</td>
+                        </tr>
+                        <tr>
+                            <td>RUB</td>
+                            <td>0.0245</td>
+                            <td>0.0214</td>
+                            <td>0.0258</td>
+                        </tr>
+    
+                    </table>
+                </div>
+               
+    
+                    <div > 
+                        <select id="zone" class="custom-select custom-select-sm selmi">
+                            <option class="azn">AZN</option>
+                            <option class="usd">USD</option>
+                            <option class="eur">EUR</option>
+                            <option class="rub">RUB</option>
+                        </select>
+                        <input class="input-group input-group-sm mb-3" id="a" type="text" /> 
+                    </div>
+    
+                    
+    
+                    <div>
+                        <select id="stwo" class="custom-select custom-select-sm selmi">
+                            <option class="AZN">AZN</option>
+                            <option class="usd">USD</option>
+                            <option class="eur">EUR</option>
+                            <option class="rub">RUB</option>
+                        </select>
+                        <h5 id="b" class="mb-3"> </h5> 
+                    </div>
+
+                    <div><button type="button" class="btn btn-primary" onclick="currenttotal()">calculate</button></div>
+            
+                    <table id="jjss" class="table table-bordered"></table>
+            </div>
+        </main>
+        <script src="sd.js"></script>
+    </body>
+</html>
